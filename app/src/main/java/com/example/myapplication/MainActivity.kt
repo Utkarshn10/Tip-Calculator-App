@@ -58,12 +58,12 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
-//    private fun calculateTipandTotal() {
+    private fun calculateTipandTotal() {
 //       val baseAmount = etBaseAmount.text.toString().toDouble()
 //        val tipPercent = seekBarTip.progress
 //        val tipAmount = baseAmount * tipPercent/100
 //        val totalAmount = baseAmount + tipAmount
 //        tvTipAmount.text = tipAmount.toString()
 //        tvTotalAmount.text = totalAmount.toString()
-//    }
+    }
 }
