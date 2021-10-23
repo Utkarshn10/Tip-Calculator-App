@@ -55,10 +55,12 @@
         android:id="@+id/etBaseAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="28dp"
-        android:ems="10"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:ems="8"
+        android:hint="Bill Amount"
         android:inputType="numberDecimal"
+        android:textSize="24sp"
         app:layout_constraintStart_toEndOf="@+id/tvBaseLabel"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -66,9 +68,10 @@
         android:id="@+id/seekBarTip"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="90dp"
         android:layout_marginTop="45dp"
+        android:max="50"
         app:layout_constraintStart_toEndOf="@+id/tvTipPercentLabel"
+        app:layout_constraintStart_toStartOf="@+id/etBaseAmount"
         app:layout_constraintTop_toBottomOf="@+id/etBaseAmount" />
 
     <TextView
@@ -77,8 +80,9 @@
         android:layout_height="wrap_content"
         android:text="21"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="189dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/tvTipLabel"
+        app:layout_constraintStart_toStartOf="@+id/seekBarTip"
+        app:layout_constraintTop_toTopOf="@+id/tvTipLabel" />
 
     <TextView
         android:id="@+id/tvTotalAmount"
@@ -86,6 +90,7 @@
         android:layout_height="wrap_content"
         android:text="101"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="263dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/tvTotalLabel"
+        app:layout_constraintStart_toStartOf="@+id/tvTipAmount"
+        app:layout_constraintTop_toTopOf="@+id/tvTotalLabel" />
 </androidx.constraintlayout.widget.ConstraintLayout>
