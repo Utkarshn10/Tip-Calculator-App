@@ -2,7 +2,8 @@
 
 ## A Tip calculator App built using Kotlin.
 
-Screenshots:
+## Screenshots:
+
 https://postimg.cc/gxPHyM60'
 
 https://postimg.cc/yDXXLFFy
