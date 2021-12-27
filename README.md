@@ -4,7 +4,7 @@
 
 ## Screenshots:
 
-https://postimg.cc/gxPHyM60'
+https://postimg.cc/gxPHyM60
 
 https://postimg.cc/yDXXLFFy
 
